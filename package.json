@@ -2,7 +2,7 @@
   "name": "random-load",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rgrg27.github.io/RandomInfiniteLoading",
+  "homepage": "https://rgrg27.github.io/Random-Infinite-Loading",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
