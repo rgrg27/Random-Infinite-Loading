@@ -1,0 +1,80 @@
+body{
+  background-color: #351409;;
+}
+.card-list{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  margin: 5%;
+}
+
+
+
+.load{
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.item{
+  width:25%;
+}
+.description{
+  background-color: white;
+}
+.card{
+    display: grid;
+}
+img{
+  width: 100%;
+  height: 22rem;
+    border: 1px solid white;
+  border-radius: 16px;
+}
+.card-btn-overlay{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.card-btn-liked{
+  opacity: 1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.card-btn-overlay .btn{
+    background-color: #0982f1;
+    color: white;
+}
+.card-btn-liked .btn{
+    background-color: #0982f1;
+    color: white;
+    opacity:1;
+}
+.card-img:hover .card-btn-overlay{
+    opacity:1;
+}
+.card-img:hover .card-img-top{
+    background:rgba(0,0,0,.05);
+    opacity: 0.9;
+}
+
+.row{
+  margin-top:200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
