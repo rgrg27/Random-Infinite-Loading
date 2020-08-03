@@ -1,0 +1,2 @@
+(this["webpackJsonprandom-load"]=this["webpackJsonprandom-load"]||[]).push([[3],{46:function(a,e,t){"use strict";t.r(e);var c=t(0),r=t.n(c);e.default=function(a){return r.a.createElement("div",{className:"card",key:a.image},r.a.createElement("div",{className:"card-img"},r.a.createElement("img",{className:"card-img-top",src:a.image,alt:""})))}}}]);
+//# sourceMappingURL=3.62fac6a2.chunk.js.map
