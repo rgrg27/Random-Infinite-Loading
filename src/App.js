@@ -31,6 +31,7 @@ class App extends Component {
     var x = Math.floor((Math.random() * urlList.length) );
     axios
       .get(urlList[x])
+      .then(resp => resp.json())
       .then(res => {
         if(res.data.url===undefined && res.data.image!==undefined){
           if(this.checkUrl(res.data.image)){
